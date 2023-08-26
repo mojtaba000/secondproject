@@ -1,0 +1,279 @@
+:root {
+    --primary-color: #6c55f9;
+    --secondary-coler: #ff3b3b;
+    --accent-color: rgb(100, 95, 136)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    position: relative;
+    display: flex;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.auto-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.light_btn {
+    color: var(--accent-color);
+    padding: 8px 20px;
+    margin: 10px;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.dark_btn {
+    padding: 15px 10px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.925);
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.dark_btn span {
+    background-color: aliceblue;
+
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 0 3px 5px 8px;
+}
+
+
+
+
+/* start navigation style */
+
+.menu {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    box-shadow: rgb(167 164 164 / 52%) 0px 2px 9px 1px;
+
+
+
+}
+
+.menu .menu_link {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+}
+
+.menu ul li:first-child {
+    color: var(--primary-color);
+}
+
+.menu ul li:hover {
+    color: black;
+}
+
+.menu .logo {
+
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+.menu .logo span {
+    color: var(--primary-color) !important;
+}
+
+.menu .menu_btn {
+    color: rgb(109, 98, 98);
+    padding: 8px 20px;
+    ;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 30px;
+}
+
+.menu .menu_btn:hover {
+    background-color: rgba(219, 219, 219, 0.61);
+    transition: background-color 300ms linear;
+
+
+}
+
+/* end navigation style */
+
+
+
+
+/* sts navigation style */
+
+
+
+.header {
+    padding: 50px 0;
+}
+
+
+.header .content {
+    display: flex;
+    align-items: center;
+
+}
+
+.header .content .slogan,
+.header .content .header .image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.header .content .slogan p {
+    margin-bottom: 30px;
+}
+
+
+
+.header .content .slogan {
+    padding: 0 50px;
+}
+
+/* end navigation style */
+
+
+/* start why style */
+.why .content .title {
+    text-align: center;
+
+}
+
+.why .content .title h5 {
+    color: #817676d2;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    position: relative;
+
+}
+
+
+.why .content .title h1 {
+    font-size: 25px;
+    letter-spacing: 5 px;
+
+}
+
+.why .content .title h1 span {
+    color: var(--primary-color);
+    position: relative;
+}
+
+
+.why .content .title::after {
+    content: "";
+    background-color: #6c55f9;
+    width: 70px;
+    height: 10px;
+    font-size: 29px;
+
+}
+
+
+
+.why .content .title h5::before {
+    content: '?';
+    position: absolute;
+    top: -20px;
+    left: 280px;
+    color: #6c55f9;
+    background-color: #6c55f9;
+    border-radius: 20px;
+
+}
+
+
+.why .content .title-col {
+    text-align: center;
+    display: flex;
+    margin: 40px;
+    padding: 30px;
+
+}
+
+
+.why .content .title-col .col-4 span {
+    color: #ffffff;
+    border-radius: 30pc;
+
+    background-color: #a7a7a7a2;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+
+.why .content .title-col .col-4 h1{
+font-weight: 200;
+font-size: 20px;
+padding-top: 20px;
+
+}
+
+.why .content .title-col .col-4 { 
+
+border: 1px solid rgba(100, 100, 100, 0.233);
+ padding: 20px;
+margin: 20px;
+border-radius: 20px;
+
+justify-content: space-between;
+}
+
+.why .content .title-col .col-4:nth-child(2) {
+    position: relative;
+       background-color: #6c55f9;
+       overflow: hidden;
+
+}
+.why .content .title-col .col-4:nth-child(2)::before{ 
+content: 'best'; background-color: rgb(0, 224, 224);
+color: #ffffff;
+text-align: center;
+min-width: 100px;
+padding: 10px;
+
+top: 1px;
+right: -26px;
+position: absolute;
+transform: rotate(37deg );
+}
+/* ///////////////////////////////// */
+
+
+
